@@ -1,0 +1,192 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khushi gym</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Josefin+Sans:ital,wght@1,100&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: 'Baloo Da 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url("https://t3.ftcdn.net/jpg/01/19/59/74/360_F_119597487_SnvLBdheEGOxu05rMQ5tCzo250cRrTz9.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .left {
+            position: absolute;
+            left: 30px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid red; */
+
+
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 34px auto;
+            top: 20px;
+            /* border: 2px solid red; */
+        }
+        
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 39px;
+            display: inline-block;
+            /* border: 2px solid red; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: white;
+            font-size: 18px;
+
+        }
+
+        /* .navbar li a {
+            display: inline-block;
+            padding: 5px;
+
+        }
+
+        .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+        } */
+
+        .navbar li a {
+        color: white;
+        text-decoration: underline;
+        padding: 10px ;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+        .left img {
+            height: 65px;
+            width: 85px;
+        }
+
+        .left div {
+            line-height: 19px;
+            font-size: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        .btn {
+            font-family: 'Baloo Da 2', cursive;
+            margin: 0px 9px;
+
+            padding: 3px 4px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: rgb(161, 152, 152);
+        }
+
+        .container {
+            border: 2px solid white;
+            color: white;
+            margin: 133px 163px;
+            padding: 33px 33px;
+            width: 33%;
+            border-radius: 10px;
+        }
+        .form-group input{
+            font-family: 'Baloo Da 2', cursive;
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            width: 250px;
+            padding: 2px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 8px auto;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+           width: 250px;
+           margin: 15px auto;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class=" left">
+            <img class="ima"
+                src="https://images.assetsdelivery.com/compings_v2/desbayy/desbayy1808/desbayy180800119.jpg" alt="">
+            <div>khushi fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"></a> HOME</li>
+                <li><a href="#"></a>ABOUT US</li>
+                <li><a href="#"></a>FITNESS CENTER</li>
+                <li><a href="#"></a>CONTACT US</li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">CALL US NOW </button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of the Guna now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text " name = "" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text " name = "" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text " name = "" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text " name = "" placeholder="Enter your locality">
+            </div>
+            
+            
+           
+        </form>
+        <button class="btn" type="submit">submit</button>
+    </div>
+</body>
+
+</html>
